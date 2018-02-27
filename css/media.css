@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Medium.ttf');
+  src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Bold.ttf');
+  src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Regular.ttf');
+  src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Light.ttf');
+  src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@media only screen and (max-width: 1439px) {
+  .wrapper {
+    min-width: 1025px;
+  }
+  .wrapper header .inner {
+    width: 890px;
+  }
+  .wrapper header .inner nav {
+    margin-left: 8px;
+  }
+  .wrapper header .inner nav a {
+    width: 120px;
+  }
+  .wrapper main .main_slider .slides_count {
+    left: 456px;
+  }
+  .wrapper main .main_slider .inner {
+    width: 100%;
+    padding: 180px 30px 0 126px;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .title {
+    font: 500 48px/52px "Ubuntu", Tahoma, sans-serif !important;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt {
+    width: 600px;
+    top: 10px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt img {
+    width: 100%;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt.second {
+    width: 400px;
+    right: 22px;
+    top: 22px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt.third {
+    width: 430px;
+    right: -28px;
+    top: 40px;
+  }
+  .wrapper main .internet_home .inner {
+    width: 890px;
+  }
+  .wrapper main .internet_home .inner .left_cnt {
+    width: 400px;
+  }
+  .wrapper main .internet_home .inner .left_cnt img {
+    width: 100%;
+  }
+}

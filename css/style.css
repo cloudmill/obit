@@ -1,0 +1,2063 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Medium.ttf');
+  src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Bold.ttf');
+  src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Regular.ttf');
+  src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Light.ttf');
+  src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+.wrapper {
+  min-width: 1440px;
+}
+.wrapper header {
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+  z-index: 2;
+}
+.wrapper header .inner {
+  padding: 26px 0 24px;
+  margin: 0 auto;
+  width: 1240px;
+}
+.wrapper header .inner .logo {
+  float: left;
+}
+.wrapper header .inner nav {
+  float: left;
+  margin-left: 79px;
+  padding-top: 10px;
+}
+.wrapper header .inner nav a {
+  width: 170px;
+  display: inline-block;
+  text-align: center;
+  color: #1f0f05;
+  text-decoration: none;
+  font: 400 15px/15px "Ubuntu", Tahoma, sans-serif;
+  padding-bottom: 22px;
+  position: relative;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+.wrapper header .inner nav a:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(left, #ffd850, #ff811c);
+  background: -o-linear-gradient(left, #ffd850, #ff811c);
+  background: linear-gradient(to right, #ffd850, #ff811c);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.wrapper header .inner nav a:hover {
+  color: #ff831d;
+}
+.wrapper header .inner nav a:hover:after {
+  opacity: 1;
+}
+.wrapper header .inner .phone {
+  float: right;
+}
+.wrapper header .inner .phone a {
+  display: table;
+  text-decoration: none;
+}
+.wrapper header .inner .phone a:nth-child(1) {
+  font: 500 18px/18px "Ubuntu", Tahoma, sans-serif;
+  color: #ea5b0c;
+  margin-bottom: 8px;
+}
+.wrapper header .inner .phone a:nth-child(1) span {
+  color: #a9a9a9;
+}
+.wrapper header .inner .phone a:nth-child(2) {
+  font: 400 15px/15px "Ubuntu", Tahoma, sans-serif;
+  color: #ea5b0c;
+  padding-bottom: 9px;
+  text-align: right;
+  width: 100%;
+  position: relative;
+}
+.wrapper header .inner .phone a:nth-child(2):after {
+  content: '';
+  position: absolute;
+  width: 117px;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px dotted #ea5b0c;
+}
+.wrapper main {
+  position: relative;
+  z-index: 1;
+}
+.wrapper main .main_slider {
+  margin-top: -106px;
+}
+.wrapper main .main_slider .slides_count {
+  position: absolute;
+  top: 455px;
+  left: 688px;
+  z-index: 10;
+  color: #fff;
+}
+.wrapper main .main_slider .slides_count span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .main_slider .slides_count span:nth-child(1) {
+  font: 500 34px/34px "Ubuntu", Tahoma, sans-serif;
+  padding-right: 6px;
+}
+.wrapper main .main_slider .slides_count span:nth-child(2) {
+  font: 500 14px/14px "Ubuntu", Tahoma, sans-serif;
+  padding-left: 12px;
+  position: relative;
+}
+.wrapper main .main_slider .slides_count span:nth-child(2):before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  left: 0;
+  top: 0;
+}
+.wrapper main .main_slider .inner {
+  width: 1440px;
+  background-image: url(../img/bg_slider.png);
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  margin: 0 auto;
+  height: 760px;
+  padding: 200px 92px 108px;
+  position: relative;
+}
+.wrapper main .main_slider .inner .slick-list {
+  top: -28px;
+  overflow: hidden;
+}
+.wrapper main .main_slider .inner .slick-current {
+  z-index: 100;
+}
+.wrapper main .main_slider .inner .slick-track {
+  height: 580px;
+}
+.wrapper main .main_slider .inner .slick-arrow {
+  position: absolute;
+  bottom: 255px;
+  text-indent: -9999px;
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px #fff solid;
+  background-color: transparent;
+  z-index: 10;
+}
+.wrapper main .main_slider .inner .slick-arrow:before {
+  content: '';
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/svg/arr-slide.svg);
+  width: 8px;
+  height: 13px;
+  top: 50%;
+  left: 50%;
+  margin-top: -6px;
+  margin-left: -3px;
+}
+.wrapper main .main_slider .inner .slick-arrow.slick-prev {
+  left: 370px;
+}
+.wrapper main .main_slider .inner .slick-arrow.slick-prev:before {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: -6px;
+}
+.wrapper main .main_slider .inner .slick-arrow.slick-next {
+  left: 530px;
+}
+.wrapper main .main_slider .inner .slider .right_cnt {
+  position: absolute;
+  right: -36px;
+  top: -43px;
+}
+.wrapper main .main_slider .inner .slider .right_cnt.second {
+  right: 17px;
+  top: 8px;
+}
+.wrapper main .main_slider .inner .slider .right_cnt.third {
+  right: -93px;
+  top: -19px;
+}
+.wrapper main .main_slider .inner .slider .left_cnt {
+  float: left;
+  padding-top: 34px;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .title {
+  font: 500 65px/69px "Ubuntu", Tahoma, sans-serif;
+  color: #fff;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .sub_title {
+  margin-top: 44px;
+  color: #fff;
+  font: 400 24px/24px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .bot {
+  position: absolute;
+  bottom: 246px;
+  left: 0;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .bot .connect {
+  display: inline-block;
+  width: 210px;
+  height: 60px;
+  color: #ea5b0c;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .bot .connect:before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .bot .connect:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .main_slider .inner .slider .left_cnt .bot .connect img {
+  margin-left: 14px;
+  display: inline;
+}
+.wrapper main .internet_home .inner {
+  width: 1240px;
+  margin: 0 auto 55px;
+}
+.wrapper main .internet_home .inner .left_cnt {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .internet_home .inner .right_cnt {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: #1f0f05;
+  margin-left: 130px;
+  background-color: #fff;
+}
+.wrapper main .internet_home .inner .right_cnt:before {
+  content: '01';
+  position: absolute;
+  top: -80px;
+  left: 0;
+  font: 700 135px/135px "Ubuntu", Tahoma, sans-serif;
+  color: #fff8e0;
+  z-index: -1;
+}
+.wrapper main .internet_home .inner .right_cnt h2 {
+  font: 500 55px/59px "Ubuntu", Tahoma, sans-serif;
+  margin: 0 0 28px;
+}
+.wrapper main .internet_home .inner .right_cnt h2 span {
+  color: #ea5b0c;
+}
+.wrapper main .internet_home .inner .right_cnt .sub_title {
+  font: 400 20px/24px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .internet_home .inner .right_cnt .sub_title span {
+  color: #ea5b0c;
+}
+.wrapper main .internet_home .inner .right_cnt ul {
+  margin: 30px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wrapper main .internet_home .inner .right_cnt ul li {
+  font: 300 16px/34px "Ubuntu", Tahoma, sans-serif;
+  position: relative;
+  padding-left: 28px;
+}
+.wrapper main .internet_home .inner .right_cnt ul li:before {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 6px;
+  top: 13px;
+}
+.wrapper main .internet_home .inner .right_cnt ul li:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  opacity: 0.3;
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 3px;
+  top: 10px;
+}
+.wrapper main .internet_home .inner .right_cnt a {
+  display: inline-block;
+  width: 210px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .internet_home .inner .right_cnt a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .internet_home .inner .right_cnt a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .internet_home .inner .right_cnt img {
+  margin-left: 14px;
+}
+.wrapper main .calculator .inner {
+  width: 1240px;
+  margin: 0 auto 112px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 7px 34px 22px rgba(239, 111, 0, 0.2);
+          box-shadow: 0px 7px 34px 22px rgba(239, 111, 0, 0.2);
+}
+.wrapper main .calculator .inner .left_cnt,
+.wrapper main .calculator .inner .right_cnt {
+  float: left;
+}
+.wrapper main .calculator .inner .left_cnt {
+  width: 17%;
+}
+.wrapper main .calculator .inner .left_cnt a {
+  display: block;
+  height: 160px;
+  width: 100%;
+  background-color: rgba(255, 182, 90, 0.91);
+  text-decoration: none;
+  color: #fff;
+  font: 500 22px/22px "Ubuntu", Tahoma, sans-serif;
+  padding: 90px 0 0 25px;
+  position: relative;
+  z-index: 1;
+  outline: none;
+}
+.wrapper main .calculator .inner .left_cnt a.active {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa800), to(#ffcd20));
+  background-image: -webkit-linear-gradient(left, #ffa800, #ffcd20);
+  background-image: -o-linear-gradient(left, #ffa800, #ffcd20);
+  background-image: linear-gradient(to right, #ffa800, #ffcd20);
+  -webkit-box-shadow: -20px 0px 20px 16px rgba(4, 4, 4, 0.1);
+          box-shadow: -20px 0px 20px 16px rgba(4, 4, 4, 0.1);
+  position: relative;
+  z-index: 2;
+}
+.wrapper main .calculator .inner .left_cnt a:nth-child(1):before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/wifi.png);
+  width: 40px;
+  height: 30px;
+  top: 40px;
+  left: 25px;
+}
+.wrapper main .calculator .inner .left_cnt a:nth-child(2) {
+  border-top: 1px rgba(255, 255, 255, 0.2) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+}
+.wrapper main .calculator .inner .left_cnt a:nth-child(2):before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/tv.png);
+  width: 39px;
+  height: 34px;
+  top: 40px;
+  left: 25px;
+}
+.wrapper main .calculator .inner .left_cnt a:nth-child(3):before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/phone.png);
+  width: 40px;
+  height: 32px;
+  top: 40px;
+  left: 25px;
+}
+.wrapper main .calculator .inner .right_cnt {
+  position: relative;
+  z-index: 1;
+  width: 83%;
+  height: 480px;
+  -webkit-box-shadow: -2px 8px 20px 10px rgba(4, 4, 4, 0.1);
+          box-shadow: -2px 8px 20px 10px rgba(4, 4, 4, 0.1);
+  padding: 46px 0 0 20px;
+  color: #1f0f05;
+}
+.wrapper main .calculator .inner .right_cnt .tab {
+  display: none;
+}
+.wrapper main .calculator .inner .right_cnt .tab.active {
+  display: block;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line .scale {
+  margin-left: 15px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) {
+  margin-bottom: 40px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) img {
+  vertical-align: top;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .title {
+  font: 400 20px/20px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 24px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale {
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 22px;
+  position: relative;
+  left: 0px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(1) {
+  margin-left: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+  margin-left: 86px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+  margin-left: 89px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+  margin-left: 91px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+  margin-left: 90px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(6) {
+  margin-left: 85px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .speed_scale {
+  border: 0;
+  background-color: #f4f4f4;
+  height: 5px;
+  width: 560px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .speed_scale .ui-widget-header {
+  background: -webkit-gradient(linear, left top, right top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(left, #ffd850, #ff811c);
+  background: -o-linear-gradient(left, #ffd850, #ff811c);
+  background: linear-gradient(to right, #ffd850, #ff811c);
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .speed_scale .ui-slider-handle {
+  cursor: pointer;
+  top: -10px;
+  border: 0;
+  width: 27px;
+  height: 27px;
+  background: -webkit-gradient(linear, right top, left top, from(#ff9301), to(#f86818));
+  background: -webkit-linear-gradient(right, #ff9301, #f86818);
+  background: -o-linear-gradient(right, #ff9301, #f86818);
+  background: linear-gradient(to left, #ff9301, #f86818);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+          box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+  outline: none;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 44px;
+  text-align: center;
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .txt {
+  margin-top: 14px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .numbers {
+  color: #ff8e23;
+  font: 500 60px/60px "Ubuntu", Tahoma, sans-serif;
+  padding: 30px 0;
+  -webkit-box-shadow: inset 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: inset 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .numbers span {
+  float: left;
+  padding: 0 22px;
+  border-left: 1px #fff0c8 solid;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .numbers span:nth-child(1) {
+  border-left: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) img {
+  vertical-align: top;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .title {
+  font: 400 20px/20px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 24px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale {
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 22px;
+  position: relative;
+  left: 0px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(2) {
+  margin-left: 122px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(3) {
+  margin-left: 119px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(4) {
+  margin-left: 116px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(5) {
+  margin-left: 119px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .percent_scale {
+  border: 0;
+  background-color: #f4f4f4;
+  height: 5px;
+  width: 560px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .percent_scale .ui-widget-header {
+  background: -webkit-gradient(linear, left top, right top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(left, #ffd850, #ff811c);
+  background: -o-linear-gradient(left, #ffd850, #ff811c);
+  background: linear-gradient(to right, #ffd850, #ff811c);
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .percent_scale .ui-slider-handle {
+  cursor: pointer;
+  top: -10px;
+  border: 0;
+  width: 27px;
+  height: 27px;
+  background: -webkit-gradient(linear, right top, left top, from(#ff9301), to(#f86818));
+  background: -webkit-linear-gradient(right, #ff9301, #f86818);
+  background: -o-linear-gradient(right, #ff9301, #f86818);
+  background: linear-gradient(to left, #ff9301, #f86818);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+          box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+  outline: none;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale a {
+  display: block;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+  margin-top: 60px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale a img {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 44px;
+  text-align: center;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .top_cnt {
+  -webkit-border-top-right-radius: 17.5px;
+          border-top-right-radius: 17.5px;
+  -webkit-border-top-left-radius: 17.5px;
+          border-top-left-radius: 17.5px;
+  background-color: #ffa837;
+  color: #fff;
+  font: 300 14px/14px "Ubuntu", Tahoma, sans-serif;
+  padding: 10px 30px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .top_cnt sup {
+  font-size: 20px;
+  font-family: "Ubuntu", Tahoma, sans-serif;
+  font-weight: 500;
+  top: -0.08em;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .bot_cnt {
+  -webkit-border-bottom-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+  background-color: #fff7ec;
+  color: #ffa837;
+  font: 500 50px/60px "Ubuntu", Tahoma, sans-serif;
+  padding: 12px 0 26px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .bot_cnt span {
+  font: 500 16px/16px "Ubuntu", Tahoma, sans-serif;
+  display: table;
+  margin: 0 auto;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line .scale {
+  margin-left: 15px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) img {
+  vertical-align: top;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .title {
+  font: 400 20px/20px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 24px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale {
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 22px;
+  position: relative;
+  left: 0px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+  margin-left: 115px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+  margin-left: 111px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+  margin-left: 109px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+  margin-left: 110px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .channels_scale {
+  border: 0;
+  background-color: #f4f4f4;
+  height: 5px;
+  width: 560px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .channels_scale .ui-widget-header {
+  background: -webkit-gradient(linear, left top, right top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(left, #ffd850, #ff811c);
+  background: -o-linear-gradient(left, #ffd850, #ff811c);
+  background: linear-gradient(to right, #ffd850, #ff811c);
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .channels_scale .ui-slider-handle {
+  cursor: pointer;
+  top: -10px;
+  border: 0;
+  width: 27px;
+  height: 27px;
+  background: -webkit-gradient(linear, right top, left top, from(#ff9301), to(#f86818));
+  background: -webkit-linear-gradient(right, #ff9301, #f86818);
+  background: -o-linear-gradient(right, #ff9301, #f86818);
+  background: linear-gradient(to left, #ff9301, #f86818);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+          box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+  outline: none;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 44px;
+  text-align: center;
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost .txt {
+  margin-top: 14px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost .numbers {
+  color: #ff8e23;
+  font: 500 60px/60px "Ubuntu", Tahoma, sans-serif;
+  padding: 30px 0;
+  -webkit-box-shadow: inset 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: inset 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost .numbers span {
+  float: left;
+  padding: 0 22px;
+  border-left: 1px #fff0c8 solid;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost .numbers span:nth-child(1) {
+  border-left: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) {
+  margin-top: -12px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) img {
+  vertical-align: top;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale {
+  display: inline-block;
+  vertical-align: middle;
+  width: 900px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .title {
+  color: #1f0f05;
+  font: 400 20px/20px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col {
+  float: left;
+  margin-left: 24px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(1),
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) {
+  margin-left: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(1) a {
+  display: block;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+  margin-top: 54px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(1) a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(1) a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(1) a img {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) {
+  background-color: #f5f5f5;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 18px 34px;
+  width: 570px;
+  margin: 0px 0 0 23px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side {
+  float: left;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .s_title {
+  font: 400 18px/18px "Ubuntu", Tahoma, sans-serif;
+  color: #ff7400;
+  margin-bottom: 20px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt {
+  font: 18px/24px "Ubuntu", Tahoma, sans-serif;
+  color: #1f0f05;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt span {
+  font-size: 12px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt a {
+  display: table;
+  color: #ff7400;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side {
+  float: right;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i {
+  float: left;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i:nth-child(2) {
+  margin-left: 20px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item {
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item span {
+  display: table;
+  font-size: 12px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check {
+  margin: 22px 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check input {
+  display: none;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check label {
+  position: relative;
+  color: #1f0f05;
+  padding-left: 30px;
+  font: 400 14px/14px "Ubuntu", Tahoma, sans-serif;
+  display: table;
+  cursor: pointer;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check label:before {
+  position: absolute;
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-color: #ededeb;
+  left: 0;
+  top: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check label:after {
+  display: none;
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(right, #ffd850, #ff811c);
+  background-image: -o-linear-gradient(right, #ffd850, #ff811c);
+  background-image: linear-gradient(to left, #ffd850, #ff811c);
+  left: 3px;
+  top: 3px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check label span {
+  font-size: 12px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check input[type=checkbox]:checked + label::after {
+  display: block;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line .scale {
+  margin-left: 15px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) {
+  margin-bottom: 40px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .title_wide {
+  padding-left: 84px;
+  font: 500 22px/22px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 50px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) img {
+  vertical-align: top;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .title {
+  font: 400 20px/20px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 24px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale {
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 22px;
+  position: relative;
+  left: 0px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+  margin-left: 122px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+  margin-left: 119px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+  margin-left: 116px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+  margin-left: 119px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .percent_scale_phone {
+  border: 0;
+  background-color: #f4f4f4;
+  height: 5px;
+  width: 560px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .percent_scale_phone .ui-widget-header {
+  background: -webkit-gradient(linear, left top, right top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(left, #ffd850, #ff811c);
+  background: -o-linear-gradient(left, #ffd850, #ff811c);
+  background: linear-gradient(to right, #ffd850, #ff811c);
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .percent_scale_phone .ui-slider-handle {
+  cursor: pointer;
+  top: -10px;
+  border: 0;
+  width: 27px;
+  height: 27px;
+  background: -webkit-gradient(linear, right top, left top, from(#ff9301), to(#f86818));
+  background: -webkit-linear-gradient(right, #ff9301, #f86818);
+  background: -o-linear-gradient(right, #ff9301, #f86818);
+  background: linear-gradient(to left, #ff9301, #f86818);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+          box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.1);
+  outline: none;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost {
+  display: inline-block;
+  vertical-align: top;
+  margin: -72px 0 0 49px;
+  text-align: center;
+  font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost .txt {
+  margin-top: 14px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost .numbers {
+  color: #ff8e23;
+  font: 500 60px/60px "Ubuntu", Tahoma, sans-serif;
+  padding: 30px 0;
+  -webkit-box-shadow: inset 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: inset 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost .numbers span {
+  float: left;
+  padding: 0 22px;
+  border-left: 1px #fff0c8 solid;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost .numbers span:nth-child(1) {
+  border-left: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) {
+  padding-left: 78px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) img {
+  vertical-align: top;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) a {
+  display: inline-block;
+  margin-top: 92px;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) a img {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .calend {
+  text-align: center;
+  float: right;
+  padding-right: 58px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .calend .top_cnt {
+  -webkit-border-top-right-radius: 17.5px;
+          border-top-right-radius: 17.5px;
+  -webkit-border-top-left-radius: 17.5px;
+          border-top-left-radius: 17.5px;
+  background-color: #ffa837;
+  color: #fff;
+  font: 300 14px/14px "Ubuntu", Tahoma, sans-serif;
+  padding: 10px 30px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .calend .top_cnt sup {
+  font-size: 20px;
+  font-family: "Ubuntu", Tahoma, sans-serif;
+  font-weight: 500;
+  top: -0.08em;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .calend .bot_cnt {
+  -webkit-border-bottom-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+  background-color: #fff7ec;
+  color: #ffa837;
+  font: 500 50px/60px "Ubuntu", Tahoma, sans-serif;
+  padding: 12px 0 26px;
+}
+.wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .calend .bot_cnt span {
+  font: 500 16px/16px "Ubuntu", Tahoma, sans-serif;
+  display: table;
+  margin: 0 auto;
+}
+.wrapper main .advantages .inner {
+  width: 1240px;
+  margin: 0 auto 136px;
+  position: relative;
+}
+.wrapper main .advantages .inner h2 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  color: #f3f3f3;
+  font: 700 96px/96px "Ubuntu", Tahoma, sans-serif;
+  letter-spacing: 38px;
+  text-transform: uppercase;
+  z-index: -1;
+  margin: 0;
+}
+.wrapper main .advantages .inner .items {
+  width: 1024px;
+  margin: 0 auto;
+}
+.wrapper main .advantages .inner .items .item {
+  float: left;
+  width: 33%;
+  height: 226px;
+}
+.wrapper main .advantages .inner .items .item .txt {
+  margin-top: 26px;
+  color: #1f0f05;
+  font: 300 16px/24px "Ubuntu", Tahoma, sans-serif;
+  max-width: 290px;
+}
+.wrapper main .promo_smart .inner {
+  width: 1240px;
+  margin: 0 auto 107px;
+}
+.wrapper main .promo_smart .inner .left_cnt,
+.wrapper main .promo_smart .inner .right_cnt {
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper main .promo_smart .inner .left_cnt {
+  position: relative;
+  background-color: #fff;
+}
+.wrapper main .promo_smart .inner .left_cnt:before {
+  content: '02';
+  position: absolute;
+  top: -76px;
+  left: 0;
+  font: 700 135px/135px "Ubuntu", Tahoma, sans-serif;
+  color: #fff8e0;
+  z-index: -1;
+}
+.wrapper main .promo_smart .inner .left_cnt h2 {
+  font: 500 50px/54px "Ubuntu", Tahoma, sans-serif;
+  margin: 0 0 28px;
+}
+.wrapper main .promo_smart .inner .left_cnt h2 span {
+  color: #ea5b0c;
+  display: block;
+}
+.wrapper main .promo_smart .inner .left_cnt .sub_title {
+  font: 400 20px/24px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .promo_smart .inner .left_cnt .sub_title span {
+  color: #ea5b0c;
+}
+.wrapper main .promo_smart .inner .left_cnt ul {
+  margin: 30px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wrapper main .promo_smart .inner .left_cnt ul li {
+  font: 300 16px/22px "Ubuntu", Tahoma, sans-serif;
+  position: relative;
+  padding-left: 28px;
+  margin-top: 18px;
+}
+.wrapper main .promo_smart .inner .left_cnt ul li:nth-child(1) {
+  margin-top: 0;
+}
+.wrapper main .promo_smart .inner .left_cnt ul li:before {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 6px;
+  top: 6px;
+}
+.wrapper main .promo_smart .inner .left_cnt ul li:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  opacity: 0.3;
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 3px;
+  top: 10px;
+}
+.wrapper main .promo_smart .inner .left_cnt a {
+  display: inline-block;
+  width: 210px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .promo_smart .inner .left_cnt a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .promo_smart .inner .left_cnt a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .promo_smart .inner .left_cnt a img {
+  margin-left: 14px;
+}
+.wrapper main .promo_smart .inner .right_cnt {
+  width: 600px;
+}
+.wrapper main .promo_phone .inner {
+  width: 1240px;
+  margin: 0 auto 60px;
+}
+.wrapper main .promo_phone .inner .right_cnt,
+.wrapper main .promo_phone .inner .left_cnt {
+  display: inline-block;
+}
+.wrapper main .promo_phone .inner .right_cnt {
+  position: relative;
+  background-color: #fff;
+  margin-left: 130px;
+}
+.wrapper main .promo_phone .inner .right_cnt:before {
+  content: '03';
+  position: absolute;
+  top: -71px;
+  left: 0;
+  font: 700 135px/135px "Ubuntu", Tahoma, sans-serif;
+  color: #fff8e0;
+  z-index: -1;
+}
+.wrapper main .promo_phone .inner .right_cnt h2 {
+  font: 500 50px/54px "Ubuntu", Tahoma, sans-serif;
+  margin: 0 0 28px;
+  color: #ea5b0c;
+}
+.wrapper main .promo_phone .inner .right_cnt .sub_title {
+  font: 400 20px/24px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .promo_phone .inner .right_cnt .sub_title span {
+  color: #ea5b0c;
+}
+.wrapper main .promo_phone .inner .right_cnt ul {
+  margin: 30px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wrapper main .promo_phone .inner .right_cnt ul li {
+  font: 300 16px/22px "Ubuntu", Tahoma, sans-serif;
+  position: relative;
+  padding-left: 28px;
+  margin-top: 18px;
+}
+.wrapper main .promo_phone .inner .right_cnt ul li:nth-child(1) {
+  margin-top: 0;
+}
+.wrapper main .promo_phone .inner .right_cnt ul li:before {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 6px;
+  top: 6px;
+}
+.wrapper main .promo_phone .inner .right_cnt ul li:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  opacity: 0.3;
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 3px;
+  top: 10px;
+}
+.wrapper main .promo_phone .inner .right_cnt a {
+  display: inline-block;
+  width: 210px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .promo_phone .inner .right_cnt a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .promo_phone .inner .right_cnt a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .promo_phone .inner .right_cnt a img {
+  margin-left: 14px;
+}
+.wrapper main .page_404 {
+  background-image: url('../img/404_bg.png');
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.wrapper main .page_404 .inner {
+  width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 63px;
+}
+.wrapper main .page_404 .inner h1 {
+  margin: 23px 0 38px;
+  font: 500 28px/28px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .page_404 .inner a {
+  display: inline-block;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .page_404 .inner a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .page_404 .inner a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 5px;
+}
+.wrapper main .page_404 .inner a img {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.wrapper main .inet_desc .inner {
+  width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 92px 0 24px;
+}
+.wrapper main .inet_desc .inner h1 {
+  font: 500 35px/35px "Ubuntu", Tahoma, sans-serif;
+  color: #1f0f05;
+  margin: 0 0 38px;
+}
+.wrapper main .inet_desc .inner p {
+  font: 400 16px/26px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .check_address {
+  background-color: #f5f5f5;
+}
+.wrapper main .check_address .inner {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 76px 0 86px;
+}
+.wrapper main .check_address .inner h2 {
+  font: 500 35px/35px "Ubuntu", Tahoma, sans-serif;
+  color: #1f0f05;
+  margin: 0 0 38px;
+  text-align: center;
+}
+.wrapper main .check_address .inner p {
+  font: 400 16px/26px "Ubuntu", Tahoma, sans-serif;
+  text-align: center;
+  margin-bottom: 96px;
+}
+.wrapper main .check_address .inner .inputs {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper main .check_address .inner .inputs .item {
+  display: inline-block;
+  position: relative;
+  color: #1f0f05;
+  margin-left: 16px;
+}
+.wrapper main .check_address .inner .inputs .item:before {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .check_address .inner .inputs .item input {
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  border: 0;
+  height: 60px;
+  padding-left: 26px;
+  font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+          box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) {
+  cursor: pointer;
+  margin-left: 0;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1):before {
+  content: 'Ваш регион';
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1):after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/drop_arr.png);
+  width: 10px;
+  height: 7px;
+  right: 24px;
+  top: 26px;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) input {
+  width: 260px;
+  color: #888888;
+  cursor: pointer;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) ul {
+  display: none;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(2):before {
+  content: 'Улица';
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(2) input {
+  width: 260px;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(3):before {
+  content: 'Дом';
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(3) input {
+  width: 80px;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(4):before {
+  content: 'Квартира';
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(4) input {
+  width: 80px;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(5) a {
+  display: inline-block;
+  width: 250px;
+  height: 56px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(5) a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#b9b9b9));
+  background-image: -webkit-linear-gradient(#e3e3e3, #b9b9b9);
+  background-image: -o-linear-gradient(#e3e3e3, #b9b9b9);
+  background-image: linear-gradient(#e3e3e3, #b9b9b9);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(5) a:after {
+  content: '';
+  position: absolute;
+  background-color: #adadad;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 3px;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(5) a img {
+  margin-left: 14px;
+}
+.wrapper main .check_address .inner .desc {
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 36px 0 56px 100px;
+  width: 1004px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+          box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+}
+.wrapper main .check_address .inner .desc .line {
+  font: 500 22px/30px "Ubuntu", Tahoma, sans-serif;
+  position: relative;
+}
+.wrapper main .check_address .inner .desc .event {
+  display: none;
+}
+.wrapper main .check_address .inner .desc .event.active {
+  display: block;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(1) .line {
+  padding-left: 100px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(1) {
+  margin-bottom: 64px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(1):before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/emoticon-square-smiling-face-with-closed-eyes.png);
+  width: 73px;
+  height: 73px;
+  left: 0;
+  top: 0;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(2):before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/check.png);
+  width: 76px;
+  height: 73px;
+  left: 0;
+  top: 0;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2),
+.wrapper main .check_address .inner .desc .event:nth-child(3),
+.wrapper main .check_address .inner .desc .event:nth-child(4) {
+  text-align: center;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line {
+  text-align: left;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(1),
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(1),
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(1) {
+  display: table;
+  margin: 0 auto 77px 0;
+  padding-left: 100px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(1):before,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(1):before,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(1):before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/emoticon-square-smiling-face-with-closed-eyes.png);
+  width: 73px;
+  height: 73px;
+  top: 0;
+  left: 0;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item {
+  display: inline-block;
+  position: relative;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:before,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:before,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:before {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(1):before,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(1):before,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(1):before {
+  content: 'ФИО';
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(2),
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(2),
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(2) {
+  margin-left: 20px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(2):before,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(2):before,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(2):before {
+  content: 'Телефон';
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(3) a,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(3) a,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(3) a {
+  margin-left: 20px;
+  display: inline-block;
+  width: 250px;
+  height: 56px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+          box-shadow: 5px 13px 20px 15px rgba(4, 4, 4, 0.05);
+  text-decoration: none;
+  z-index: 2;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(3) a:before,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(3) a:before,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(3) a:before {
+  content: '';
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd850), to(#ff811c));
+  background-image: -webkit-linear-gradient(#ffd850, #ff811c);
+  background-image: -o-linear-gradient(#ffd850, #ff811c);
+  background-image: linear-gradient(#ffd850, #ff811c);
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(3) a:after,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(3) a:after,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(3) a:after {
+  content: '';
+  position: absolute;
+  background-color: #ea5b0c;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 3px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(3) a img,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(3) a img,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(3) a img {
+  margin-left: 14px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item input,
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item input,
+.wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item input {
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  border: 0;
+  height: 60px;
+  padding-left: 26px;
+  font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
+  -webkit-box-shadow: 0px 5px 28px 1px rgba(31, 15, 6, 0.1);
+          box-shadow: 0px 5px 28px 1px rgba(31, 15, 6, 0.1);
+}
+.wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(1) {
+  margin-left: 140px;
+}
+.wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(1):before {
+  background-image: url(../img/teardrop-falling-on-sad-emoticon-face.png);
+}
+.wrapper main .stocks .inner {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 75px 0 125px;
+}
+.wrapper main .stocks .inner h1 {
+  font: 500 35px/35px "Ubuntu", Tahoma, sans-serif;
+  margin: 0 0 120px;
+  color: #1f0f05;
+  text-align: center;
+}
+.wrapper main .stocks .inner .items .item {
+  cursor: pointer;
+  display: inline-block;
+  width: 32%;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  height: 250px;
+  -webkit-box-shadow: 5px 0px 20px 4px rgba(4, 4, 4, 0.1);
+          box-shadow: 5px 0px 20px 4px rgba(4, 4, 4, 0.1);
+  vertical-align: middle;
+  margin-left: 16px;
+  position: relative;
+  padding-left: 24px;
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(transparent));
+  background: -webkit-linear-gradient(right, transparent, transparent);
+  background: -o-linear-gradient(right, transparent, transparent);
+  background: linear-gradient(to left, transparent, transparent);
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+}
+.wrapper main .stocks .inner .items .item:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 8px solid transparent;
+  -webkit-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.wrapper main .stocks .inner .items .item:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  background: -webkit-gradient(linear, right top, left top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(right, #ffd850, #ff811c);
+  background: -o-linear-gradient(right, #ffd850, #ff811c);
+  background: linear-gradient(to left, #ffd850, #ff811c);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  top: 0;
+  left: 0;
+}
+.wrapper main .stocks .inner .items .item:hover:before {
+  border-top-color: #ffad36;
+}
+.wrapper main .stocks .inner .items .item:hover:after {
+  opacity: 1;
+}
+.wrapper main .stocks .inner .items .item:hover .left_cnt {
+  background: -webkit-gradient(linear, right top, left top, from(#fff), to(#fff));
+  background: -webkit-linear-gradient(right, #fff, #fff);
+  background: -o-linear-gradient(right, #fff, #fff);
+  background: linear-gradient(to left, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper main .stocks .inner .items .item .left_cnt,
+.wrapper main .stocks .inner .items .item .right_cnt {
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 1;
+}
+.wrapper main .stocks .inner .items .item .left_cnt {
+  background: -webkit-gradient(linear, right top, left top, from(#ffd850), to(#ff811c));
+  background: -webkit-linear-gradient(right, #ffd850, #ff811c);
+  background: -o-linear-gradient(right, #ffd850, #ff811c);
+  background: linear-gradient(to left, #ffd850, #ff811c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: 500 20px/24px "Ubuntu", Tahoma, sans-serif;
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+  position: relative;
+}
+.wrapper main .stocks .inner .items .item .left_cnt span {
+  font: 400 14px/14px "Ubuntu", Tahoma, sans-serif;
+  display: table;
+  margin-top: 16px;
+}
+.wrapper main .stocks .inner .items .item .right_cnt {
+  position: absolute;
+}
+.wrapper main .stocks .inner .items .item:nth-child(1) {
+  margin-left: 0;
+  padding-top: 78px;
+}
+.wrapper main .stocks .inner .items .item:nth-child(1) .right_cnt {
+  top: 56px;
+  right: -40px;
+}
+.wrapper main .stocks .inner .items .item:nth-child(2) {
+  padding-top: 92px;
+}
+.wrapper main .stocks .inner .items .item:nth-child(2) .right_cnt {
+  top: 26px;
+  right: 0px;
+}
+.wrapper main .stocks .inner .items .item:nth-child(3) {
+  padding-top: 82px;
+}
+.wrapper main .stocks .inner .items .item:nth-child(3) .right_cnt {
+  top: 46px;
+  right: -26px;
+}
+.wrapper main .stocks .inner .desc {
+  margin-top: 20px;
+  background-color: #f3f3f3;
+  padding: 35px 28px 40px;
+  color: #1f0f05;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.wrapper main .stocks .inner .desc .title {
+  font: 500 20px/20px "Ubuntu", Tahoma, sans-serif;
+  margin-bottom: 30px;
+}
+.wrapper main .stocks .inner .desc .tab {
+  font: 300 16px/20px "Ubuntu", Tahoma, sans-serif;
+  width: 680px;
+}
+.wrapper footer {
+  background-image: url(../img/footer.png);
+  width: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper footer .inner {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 74px 0 56px;
+  color: #1f0f05;
+}
+.wrapper footer .inner .top_cnt {
+  margin-bottom: 50px;
+}
+.wrapper footer .inner .top_cnt .col {
+  float: left;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(1) {
+  width: 17%;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(2) {
+  width: 44%;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(2) .sub {
+  display: inline-block;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(2) .sub:nth-child(2) {
+  margin-left: 96px;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(2) .sub a {
+  display: table;
+  color: #1f0f05;
+  font: 400 15px/36px "Ubuntu", Tahoma, sans-serif;
+  text-decoration: none;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(2) .sub a:hover {
+  color: #ea5b0c;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(3) {
+  width: 27%;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(3) .line:nth-child(1) {
+  margin-bottom: 35px;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(3) .line .left_txt {
+  float: left;
+  color: #ea5b0c;
+  font: 700 13px/17px "Ubuntu", Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(3) .line .right_txt {
+  margin-left: 6px;
+  float: left;
+  font: 300 15px/19px "Ubuntu", Tahoma, sans-serif;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(4) {
+  width: 12%;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(4) a {
+  display: table;
+  text-decoration: none;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(4) a:nth-child(1) {
+  font: 500 18px/18px "Ubuntu", Tahoma, sans-serif;
+  color: #ea5b0c;
+  margin-bottom: 8px;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(4) a:nth-child(1) span {
+  color: #a9a9a9;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(4) a:nth-child(2) {
+  font: 400 15px/15px "Ubuntu", Tahoma, sans-serif;
+  color: #ea5b0c;
+  padding-bottom: 9px;
+  position: relative;
+}
+.wrapper footer .inner .top_cnt .col:nth-child(4) a:nth-child(2):after {
+  content: '';
+  position: absolute;
+  width: 117px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px dotted #ea5b0c;
+}
+.wrapper footer .inner .bot_cnt {
+  padding-left: 206px;
+}
+.wrapper footer .inner .bot_cnt .col {
+  color: #42444a;
+  font: 400 14px/16px "Ubuntu", Tahoma, sans-serif;
+  float: left;
+}
+.wrapper footer .inner .bot_cnt .col:nth-child(1) {
+  float: left;
+}
+.wrapper footer .inner .bot_cnt .col:nth-child(2) {
+  float: right;
+}
+.wrapper footer .inner .bot_cnt .col:nth-child(2) a {
+  margin-left: 3px;
+  vertical-align: top;
+}
