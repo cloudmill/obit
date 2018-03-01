@@ -175,11 +175,15 @@
   z-index: 1;
 }
 .wrapper main .main_slider {
-  margin-top: -106px;
+  background-image: url(../img/bg_slider_1920.png);
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
 }
 .wrapper main .main_slider .slides_count {
   position: absolute;
-  top: 455px;
+  top: 431px;
   left: 50%;
   z-index: 10;
   color: #fff;
@@ -209,13 +213,9 @@
 }
 .wrapper main .main_slider .inner {
   width: 1440px;
-  background-image: url(../img/bg_slider.png);
-  background-position: center;
-  -webkit-background-size: cover;
-          background-size: cover;
-  margin: 0 auto;
-  height: 760px;
-  padding: 200px 92px 108px;
+  margin: -106px auto 0;
+  height: 850px;
+  padding: 172px 92px 108px;
   position: relative;
 }
 .wrapper main .main_slider .inner .slick-list {
@@ -230,7 +230,7 @@
 }
 .wrapper main .main_slider .inner .slick-arrow {
   position: absolute;
-  bottom: 255px;
+  bottom: 371px;
   text-indent: -9999px;
   width: 60px;
   height: 60px;
@@ -306,7 +306,7 @@
   text-align: center;
   -webkit-border-radius: 30px;
           border-radius: 30px;
-  font: 400 15px/56px "Ubuntu", Tahoma, sans-serif;
+  font: 400 15px/58px "Ubuntu", Tahoma, sans-serif;
   -webkit-box-shadow: 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
           box-shadow: 5px 6px 20px 15px rgba(4, 4, 4, 0.05);
   text-decoration: none;
@@ -1367,6 +1367,9 @@
 .wrapper main .promo_smart .inner .right_cnt {
   width: 600px;
 }
+.wrapper main .promo_smart .inner .right_cnt img {
+  width: 100%;
+}
 .wrapper main .promo_phone .inner {
   width: 1240px;
   margin: 0 auto 60px;
@@ -1490,7 +1493,7 @@
           background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 .wrapper main .page_404 .inner {
@@ -1909,6 +1912,9 @@
   margin: 0 auto;
   padding: 75px 0 125px;
 }
+.wrapper main .stocks .inner .slides_count {
+  display: none;
+}
 .wrapper main .stocks .inner h2 {
   font: 500 35px/35px "Ubuntu", Tahoma, sans-serif;
   margin: 0 0 120px;
@@ -2046,7 +2052,6 @@
 }
 .wrapper main .stocks .inner .desc .tab {
   font: 300 16px/20px "Ubuntu", Tahoma, sans-serif;
-  width: 680px;
 }
 .wrapper footer {
   background-image: url(../img/footer.png);
@@ -2093,7 +2098,7 @@
   width: 27%;
 }
 .wrapper footer .inner .top_cnt .col:nth-child(3) .line:nth-child(1) {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 .wrapper footer .inner .top_cnt .col:nth-child(3) .line .left_txt {
   float: left;

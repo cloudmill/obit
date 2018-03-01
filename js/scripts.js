@@ -4,6 +4,11 @@ $(document).ready(function() {
 		$('.slides_count span').eq(0).html(i);
 		$('.slides_count span').eq(1).html(slick.slideCount);
 	});
+	$('nav a.anchor').on('click', function() {
+		var id = this.hash;
+		var top = $(id).offset().top;
+		$('body,html').animate({ scrollTop: top }, 1000);
+	});
 	$(".stocks .inner .items").on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
 		var i = (currentSlide ? currentSlide : 0) + 1;
 		$('.stocks .slides_count span').eq(0).html(i);
@@ -35,7 +40,7 @@ $(document).ready(function() {
 			settings: "unslick"
 		},
 		{
-			breakpoint: 1024,
+			breakpoint: 1025,
 			settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1,

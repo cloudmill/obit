@@ -125,10 +125,13 @@
 		position: relative;
 		z-index: 1;
 		.main_slider {
-			margin-top: -106px;
+			background-image: url(../img/bg_slider_1920.png);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
 			.slides_count {
 				position: absolute;
-				top: 455px;
+				top: 431px;
 				left: 50%;
 				z-index: 10;
 				color: #fff;
@@ -158,12 +161,9 @@
 			}
 			.inner {
 				width: 1440px;
-				background-image: url(../img/bg_slider.png);
-				background-position: center;
-				background-size: cover;
-				margin: 0 auto;
-				height: 760px;
-				padding: 200px 92px 108px;
+				margin: -106px auto 0;
+				height: 850px;
+				padding: 172px 92px 108px;
 				position: relative;
 				.slick-list {
 					top: -28px;
@@ -177,7 +177,7 @@
 				}
 				.slick-arrow {
 					position: absolute;
-					bottom: 255px;
+					bottom: 371px;
 					text-indent: -9999px;
 					width: 60px;
 					height: 60px;
@@ -249,7 +249,7 @@
 								z-index: 2;
 								text-align: center;
 								border-radius: 30px;
-								font: 400 15px/56px @ubuntu;
+								font: 400 15px/58px @ubuntu;
 								box-shadow: 5px 6px 20px 15px rgba(4,4,4,0.05);
 								text-decoration: none;
 								z-index: 2;
@@ -1256,6 +1256,9 @@
 				}
 				.right_cnt {
 					width: 600px;
+					img {
+						width: 100%;
+					}
 				}
 			}
 		}
@@ -1375,7 +1378,7 @@
 			background-size: cover;
 			background-repeat: no-repeat;
 			height: 700px;
-			width: 1440px;
+			width: 100%;
 			margin: 0 auto;
 			.inner {
 				width: 1240px;
@@ -1768,6 +1771,9 @@
 				width: 1240px;
 				margin: 0 auto;
 				padding: 75px 0 125px;
+				.slides_count {
+					display: none;
+				}
 				h2 {
 					font: 500 35px/35px @ubuntu;
 					margin: 0 0 120px;
@@ -1883,7 +1889,6 @@
 					}
 					.tab {
 						font: 300 16px/20px @ubuntu;
-						width: 680px;
 					}
 				}
 			}
@@ -1929,7 +1934,7 @@
 						width: 27%;
 						.line {
 							&:nth-child(1) {
-								margin-bottom: 35px;
+								margin-bottom: 10px;
 							}
 							.left_txt {
 								float: left;

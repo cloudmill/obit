@@ -39,11 +39,14 @@
   .wrapper header .inner nav a {
     width: 120px;
   }
+  .wrapper main .page_404 .inner {
+    width: 890px;
+  }
   .wrapper main .inet_desc .inner {
-    width: 980px;
+    width: 890px;
   }
   .wrapper main .check_address .inner {
-    width: 980px;
+    width: 890px;
   }
   .wrapper main .check_address .inner .inputs .item:nth-child(5) {
     margin-top: 40px;
@@ -78,12 +81,21 @@
     top: 92px;
     right: -1px;
   }
+  .wrapper main .main_slider {
+    background-image: none;
+  }
   .wrapper main .main_slider .slides_count {
     left: 456px;
     top: 437px;
     margin-left: 0;
   }
   .wrapper main .main_slider .inner {
+    background-image: url(../img/bg_slider.png);
+    background-position: center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    margin: -106px auto 0;
+    height: 760px;
     width: 100%;
     padding: 180px 30px 0 126px;
   }
@@ -467,6 +479,9 @@
   .wrapper header .inner .burger {
     display: block;
   }
+  .wrapper main .page_404 .inner {
+    width: 100%;
+  }
   .wrapper main .inet_desc .inner {
     width: 100%;
   }
@@ -485,6 +500,7 @@
     position: relative;
   }
   .wrapper main .stocks .inner .slides_count {
+    display: block;
     position: absolute;
     top: 177px;
     left: 50%;
@@ -742,6 +758,26 @@
   .wrapper header .inner .burger {
     right: 16px;
     top: 20px;
+  }
+  .wrapper main .page_404 {
+    height: 550px;
+    background-image: url(../img/404_bg_320.png);
+  }
+  .wrapper main .page_404 .inner {
+    padding-top: 35px;
+  }
+  .wrapper main .page_404 .inner img {
+    width: 183px;
+  }
+  .wrapper main .page_404 .inner h1 {
+    font: 500 16px/16px "Ubuntu", Tahoma, sans-serif;
+    margin: 26px 0;
+  }
+  .wrapper main .page_404 .inner a {
+    width: 170px;
+  }
+  .wrapper main .page_404 .inner a img {
+    width: auto;
   }
   .wrapper main .inet_desc .inner {
     padding-top: 57px;
