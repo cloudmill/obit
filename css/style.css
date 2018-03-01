@@ -239,13 +239,14 @@
   border: 1px #fff solid;
   background-color: transparent;
   z-index: 10;
+  outline: none;
 }
 .wrapper main .main_slider .inner .slick-arrow:before {
   content: '';
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../img/svg/arr-slide.svg);
+  background-image: url(../img/arr-slide.png);
   width: 8px;
   height: 13px;
   top: 50%;
@@ -1606,6 +1607,7 @@
   font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
   -webkit-box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
           box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+  outline: none;
 }
 .wrapper main .check_address .inner .inputs .item:nth-child(1) {
   cursor: pointer;
@@ -1630,6 +1632,40 @@
 }
 .wrapper main .check_address .inner .inputs .item:nth-child(1) ul {
   display: none;
+  position: absolute;
+  top: 51px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  z-index: 3;
+  -webkit-border-bottom-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+  -webkit-border-bottom-right-radius: 12px;
+          border-bottom-right-radius: 12px;
+  -webkit-box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+          box-shadow: 0px 8px 28px -4px rgba(31, 15, 6, 0.03);
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) ul li {
+  padding: 16px 0 16px 30px;
+  border-top: 1px #eee solid;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) ul li:hover {
+  background-color: #fcfcfc;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) ul li:first-child {
+  border-top: 0;
+}
+.wrapper main .check_address .inner .inputs .item:nth-child(1) ul li:last-child {
+  border-bottom: 0;
+  -webkit-border-bottom-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+  -webkit-border-bottom-right-radius: 12px;
+          border-bottom-right-radius: 12px;
 }
 .wrapper main .check_address .inner .inputs .item:nth-child(2):before {
   content: 'Улица';
@@ -1860,6 +1896,7 @@
   font: 300 16px/16px "Ubuntu", Tahoma, sans-serif;
   -webkit-box-shadow: 0px 5px 28px 1px rgba(31, 15, 6, 0.1);
           box-shadow: 0px 5px 28px 1px rgba(31, 15, 6, 0.1);
+  outline: none;
 }
 .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(1) {
   margin-left: 140px;
@@ -1872,7 +1909,7 @@
   margin: 0 auto;
   padding: 75px 0 125px;
 }
-.wrapper main .stocks .inner h1 {
+.wrapper main .stocks .inner h2 {
   font: 500 35px/35px "Ubuntu", Tahoma, sans-serif;
   margin: 0 0 120px;
   color: #1f0f05;

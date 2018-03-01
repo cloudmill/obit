@@ -39,6 +39,45 @@
   .wrapper header .inner nav a {
     width: 120px;
   }
+  .wrapper main .inet_desc .inner {
+    width: 980px;
+  }
+  .wrapper main .check_address .inner {
+    width: 980px;
+  }
+  .wrapper main .check_address .inner .inputs .item:nth-child(5) {
+    margin-top: 40px;
+  }
+  .wrapper main .stocks .inner {
+    width: 980px;
+  }
+  .wrapper main .stocks .inner .items .item .right_cnt img {
+    width: 100%;
+  }
+  .wrapper main .stocks .inner .items .item:nth-child(1) {
+    padding-top: 20px;
+  }
+  .wrapper main .stocks .inner .items .item:nth-child(1) .right_cnt {
+    width: 170px;
+    top: 116px;
+    right: -10px;
+  }
+  .wrapper main .stocks .inner .items .item:nth-child(2) {
+    padding-top: 20px;
+  }
+  .wrapper main .stocks .inner .items .item:nth-child(2) .right_cnt {
+    width: 170px;
+    top: 74px;
+    right: 15px;
+  }
+  .wrapper main .stocks .inner .items .item:nth-child(3) {
+    padding-top: 20px;
+  }
+  .wrapper main .stocks .inner .items .item:nth-child(3) .right_cnt {
+    width: 170px;
+    top: 92px;
+    right: -1px;
+  }
   .wrapper main .main_slider .slides_count {
     left: 456px;
     top: 437px;
@@ -428,6 +467,122 @@
   .wrapper header .inner .burger {
     display: block;
   }
+  .wrapper main .inet_desc .inner {
+    width: 100%;
+  }
+  .wrapper main .check_address .inner {
+    width: 100%;
+  }
+  .wrapper main .check_address .inner .desc {
+    width: 100%;
+    padding: 36px 40px 56px;
+  }
+  .wrapper main .check_address .inner .desc br {
+    display: none;
+  }
+  .wrapper main .stocks .inner {
+    width: 100%;
+    position: relative;
+  }
+  .wrapper main .stocks .inner .slides_count {
+    position: absolute;
+    top: 177px;
+    left: 50%;
+    z-index: 10;
+    color: #d5d5d5;
+    margin-left: -20px;
+  }
+  .wrapper main .stocks .inner .slides_count span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .wrapper main .stocks .inner .slides_count span:nth-child(1) {
+    font: 500 34px/34px "Ubuntu", Tahoma, sans-serif;
+    padding-right: 6px;
+    color: #ff811c;
+  }
+  .wrapper main .stocks .inner .slides_count span:nth-child(2) {
+    font: 500 14px/14px "Ubuntu", Tahoma, sans-serif;
+    padding-left: 12px;
+    position: relative;
+  }
+  .wrapper main .stocks .inner .slides_count span:nth-child(2):before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #d5d5d5;
+    left: 0;
+    top: 0;
+  }
+  .wrapper main .stocks .inner .items {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow {
+    position: absolute;
+    top: -60px;
+    text-indent: -9999px;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: 1px #cdcdcd solid;
+    background-color: transparent;
+    z-index: 10;
+    outline: none;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow:hover {
+    border-color: #ff8e26;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow:hover:before {
+    background-image: url(../img/arr_mini_orange.png);
+  }
+  .wrapper main .stocks .inner .items .slick-arrow:before {
+    content: '';
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/arr_mini.png);
+    width: 8px;
+    height: 13px;
+    top: 50%;
+    left: 50%;
+    margin-top: -6px;
+    margin-left: -3px;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow.slick-prev {
+    left: 0;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow.slick-prev:before {
+    margin-left: -5px;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow.slick-next {
+    right: 0;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow.slick-next:before {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    margin-left: -4px;
+  }
+  .wrapper main .stocks .inner .items .item {
+    margin-top: 15px;
+  }
+  .wrapper main .stocks .inner .items .slick-track {
+    height: 280px;
+  }
+  .wrapper main .stocks .inner .items .slick-slide {
+    margin: 0 15px;
+  }
+  .wrapper main .stocks .inner .items .slick-slide:nth-child(2) .right_cnt {
+    top: 81px;
+    right: 8px;
+  }
+  .wrapper main .stocks .inner .items .slick-slide:nth-child(3) .right_cnt {
+    top: 99px;
+    right: -12px;
+  }
   .wrapper main .main_slider .slides_count {
     left: auto;
     right: 87px;
@@ -501,8 +656,8 @@
     float: left;
   }
   .wrapper main .calculator .inner .left_cnt a.active {
-    -webkit-box-shadow: 0px -22px 33px 33px rgba(4, 4, 4, 0.1);
-            box-shadow: 0px -22px 33px 33px rgba(4, 4, 4, 0.1);
+    -webkit-box-shadow: 0px -45px 33px 33px rgba(4, 4, 4, 0.1);
+            box-shadow: 0px -45px 33px 33px rgba(4, 4, 4, 0.1);
   }
   .wrapper main .calculator .inner .left_cnt a:nth-child(2) {
     width: 34%;
@@ -587,6 +742,146 @@
   .wrapper header .inner .burger {
     right: 16px;
     top: 20px;
+  }
+  .wrapper main .inet_desc .inner {
+    padding-top: 57px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .wrapper main .inet_desc .inner h1 {
+    font: 500 20px/20px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .inet_desc .inner p {
+    font: 300 14px/18px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .inet_desc .inner p br {
+    display: none;
+  }
+  .wrapper main .check_address .inner {
+    margin-top: -40px;
+    padding-top: 55px;
+  }
+  .wrapper main .check_address .inner h2 {
+    font: 500 20px/20px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .check_address .inner p {
+    margin-bottom: 78px;
+  }
+  .wrapper main .check_address .inner .inputs {
+    text-align: center;
+  }
+  .wrapper main .check_address .inner .inputs .item:before {
+    font: 300 14px/14px "Ubuntu", Tahoma, sans-serif;
+    top: -22px;
+    left: 7px;
+  }
+  .wrapper main .check_address .inner .inputs .item:nth-child(1) {
+    width: 270px;
+    display: table;
+    margin: 0 auto;
+  }
+  .wrapper main .check_address .inner .inputs .item:nth-child(1) ul {
+    left: 5px;
+    background-color: #fff;
+    width: 96.4%;
+  }
+  .wrapper main .check_address .inner .inputs .item:nth-child(2) {
+    width: 270px;
+    display: table;
+    margin: 40px auto;
+  }
+  .wrapper main .check_address .inner .inputs .item:nth-child(5) {
+    display: table;
+    margin: 20px auto 0;
+  }
+  .wrapper main .check_address .inner .desc {
+    padding: 36px 20px 56px;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(1),
+  .wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(2) {
+    font: 500 14px/20px "Ubuntu", Tahoma, sans-serif;
+    padding-left: 60px;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(1):before,
+  .wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(2):before {
+    width: 44px;
+    -webkit-background-size: 100% 100%;
+            background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(1) .line:nth-child(1) {
+    margin-bottom: 26px;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(1),
+  .wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(1),
+  .wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(1) {
+    margin-left: 0;
+    font: 500 14px/20px "Ubuntu", Tahoma, sans-serif;
+    padding-left: 60px;
+    margin-bottom: 50px;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(1):before,
+  .wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(1):before,
+  .wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(1):before {
+    width: 44px;
+    -webkit-background-size: 100% 100%;
+            background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item,
+  .wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item,
+  .wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item {
+    display: table;
+    margin: 0 auto;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item input,
+  .wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item input,
+  .wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item input {
+    width: 260px;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(2),
+  .wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(2),
+  .wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(2) {
+    display: table;
+    margin: 40px auto 20px;
+  }
+  .wrapper main .check_address .inner .desc .event:nth-child(2) .line:nth-child(2) .item:nth-child(3) a,
+  .wrapper main .check_address .inner .desc .event:nth-child(3) .line:nth-child(2) .item:nth-child(3) a,
+  .wrapper main .check_address .inner .desc .event:nth-child(4) .line:nth-child(2) .item:nth-child(3) a {
+    width: 260px;
+    margin-left: 0;
+  }
+  .wrapper main .stocks .inner {
+    padding-top: 54px;
+  }
+  .wrapper main .stocks .inner h2 {
+    font: 500 20px/20px "Ubuntu", Tahoma, sans-serif;
+    margin-bottom: 100px;
+  }
+  .wrapper main .stocks .inner .slides_count {
+    top: 136px;
+  }
+  .wrapper main .stocks .inner .slides_count span:nth-child(1) {
+    font: 500 25px/25px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .stocks .inner .slides_count span:nth-child(2) {
+    font: 500 13px/13px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .stocks .inner .slides_count span:nth-child(2):before {
+    height: 14px;
+  }
+  .wrapper main .stocks .inner .items {
+    width: 300px;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow.slick-prev {
+    left: 15px;
+  }
+  .wrapper main .stocks .inner .items .slick-arrow.slick-next {
+    right: 15px;
+  }
+  .wrapper main .stocks .inner .desc .tab {
+    width: 100%;
+    font: 300 14px/18px "Ubuntu", Tahoma, sans-serif;
   }
   .wrapper main .main_slider .slides_count {
     display: none;
