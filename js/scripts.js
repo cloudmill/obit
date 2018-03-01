@@ -23,7 +23,11 @@ $(document).ready(function() {
 	$('.main_slider .inner').slick({
 		fade: true
 	});
-	$()
+	$('.burger').on('click', function() {
+		$(this).toggleClass('active');
+		$('nav').toggleClass('active');
+		$('header .phone').toggleClass('active');
+	});
 });
 
 $(function() {

@@ -115,6 +115,61 @@
   right: 0;
   border-bottom: 3px dotted #ea5b0c;
 }
+.wrapper header .inner .burger {
+  width: 36px;
+  height: 13px;
+  position: absolute;
+  right: 20px;
+  top: 36px;
+  cursor: pointer;
+  display: none;
+}
+.wrapper header .inner .burger:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffad36;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: top 0.3s, -webkit-transform 0.3s;
+  transition: top 0.3s, -webkit-transform 0.3s;
+  -o-transition: transform 0.3s, top 0.3s;
+  transition: transform 0.3s, top 0.3s;
+  transition: transform 0.3s, top 0.3s, -webkit-transform 0.3s;
+}
+.wrapper header .inner .burger:after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #ffad36;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: bottom 0.3s, -webkit-transform 0.3s;
+  transition: bottom 0.3s, -webkit-transform 0.3s;
+  -o-transition: transform 0.3s, bottom 0.3s;
+  transition: transform 0.3s, bottom 0.3s;
+  transition: transform 0.3s, bottom 0.3s, -webkit-transform 0.3s;
+}
+.wrapper header .inner .burger.active:before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 5px;
+}
+.wrapper header .inner .burger.active:after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: 5px;
+}
 .wrapper main {
   position: relative;
   z-index: 1;
@@ -125,9 +180,10 @@
 .wrapper main .main_slider .slides_count {
   position: absolute;
   top: 455px;
-  left: 688px;
+  left: 50%;
   z-index: 10;
   color: #fff;
+  margin-left: -265px;
 }
 .wrapper main .main_slider .slides_count span {
   display: inline-block;
@@ -288,15 +344,13 @@
   margin: 0 auto 55px;
 }
 .wrapper main .internet_home .inner .left_cnt {
-  display: inline-block;
-  vertical-align: middle;
+  float: left;
 }
 .wrapper main .internet_home .inner .right_cnt {
+  float: right;
   position: relative;
-  display: inline-block;
-  vertical-align: middle;
   color: #1f0f05;
-  margin-left: 130px;
+  margin-top: 130px;
   background-color: #fff;
 }
 .wrapper main .internet_home .inner .right_cnt:before {
@@ -1316,14 +1370,15 @@
   width: 1240px;
   margin: 0 auto 60px;
 }
-.wrapper main .promo_phone .inner .right_cnt,
 .wrapper main .promo_phone .inner .left_cnt {
-  display: inline-block;
+  float: left;
 }
 .wrapper main .promo_phone .inner .right_cnt {
   position: relative;
   background-color: #fff;
   margin-left: 130px;
+  margin-top: 100px;
+  float: right;
 }
 .wrapper main .promo_phone .inner .right_cnt:before {
   content: '03';

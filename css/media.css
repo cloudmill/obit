@@ -41,10 +41,15 @@
   }
   .wrapper main .main_slider .slides_count {
     left: 456px;
+    top: 437px;
+    margin-left: 0;
   }
   .wrapper main .main_slider .inner {
     width: 100%;
     padding: 180px 30px 0 126px;
+  }
+  .wrapper main .main_slider .inner .slick-arrow {
+    bottom: 274px;
   }
   .wrapper main .main_slider .inner .slider .left_cnt .title {
     font: 500 48px/52px "Ubuntu", Tahoma, sans-serif !important;
@@ -70,9 +75,842 @@
     width: 890px;
   }
   .wrapper main .internet_home .inner .left_cnt {
-    width: 400px;
+    width: 340px;
   }
   .wrapper main .internet_home .inner .left_cnt img {
     width: 100%;
+  }
+  .wrapper main .internet_home .inner .right_cnt {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .wrapper main .internet_home .inner .right_cnt h2 {
+    font: 500 36px/40px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .promo_smart .inner {
+    width: 890px;
+  }
+  .wrapper main .promo_smart .inner .left_cnt h2 {
+    font: 500 36px/40px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .promo_smart .inner .right_cnt {
+    width: 340px;
+    margin-left: 10px;
+  }
+  .wrapper main .promo_smart .inner .right_cnt img {
+    width: 100%;
+  }
+  .wrapper main .promo_phone .inner {
+    width: 890px;
+  }
+  .wrapper main .promo_phone .inner .left_cnt {
+    width: 340px;
+    vertical-align: top;
+  }
+  .wrapper main .promo_phone .inner .left_cnt img {
+    width: 100%;
+  }
+  .wrapper main .promo_phone .inner .right_cnt {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .wrapper main .promo_phone .inner .right_cnt h2 {
+    font: 500 36px/40px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner {
+    width: 890px;
+  }
+  .wrapper main .calculator .inner .left_cnt {
+    width: 20%;
+  }
+  .wrapper main .calculator .inner .right_cnt {
+    width: 80%;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+    margin-left: 53px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+    margin-left: 55px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+    margin-left: 57px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+    margin-left: 56px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(6) {
+    margin-left: 52px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .speed_scale {
+    width: 390px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost {
+    margin-left: 20px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .numbers {
+    font: 500 40px/40px "Ubuntu", Tahoma, sans-serif;
+    padding: 18px 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .numbers span {
+    padding: 0 14px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .percent_scale {
+    width: 390px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(2) {
+    margin-left: 79px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(3) {
+    margin-left: 77px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(4) {
+    margin-left: 76px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(5) {
+    margin-left: 76px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend {
+    margin-left: 20px;
+    width: 155px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .top_cnt {
+    padding: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .bot_cnt {
+    padding: 0 0 13px;
+    font: 500 40px/50px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+    margin-left: 71px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+    margin-left: 70px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+    margin-left: 67px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+    margin-left: 67px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .scale .channels_scale {
+    width: 390px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost {
+    margin-left: 20px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost .numbers {
+    font: 500 40px/40px "Ubuntu", Tahoma, sans-serif;
+    padding: 18px 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(1) .cost .numbers span {
+    padding: 0 14px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) {
+    margin-top: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale {
+    width: 580px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .title {
+    margin-bottom: 14px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col {
+    margin-top: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(1) a {
+    position: absolute;
+    left: 24px;
+    bottom: 123px;
+    width: 160px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) {
+    width: 468px;
+    padding: 10px 20px;
+    margin-left: 100px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side {
+    float: none;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .s_title {
+    font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt {
+    margin-left: 10px;
+    display: inline-block;
+    font: 400 16px/22px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side {
+    float: none;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i {
+    float: none;
+    display: inline-block;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i:nth-child(2) {
+    margin-left: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item:nth-child(1) {
+    margin-left: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(2) .line:nth-child(2) .scale .cols .col .check {
+    margin: 12px 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .title_wide {
+    margin-bottom: 20px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+    margin-left: 71px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+    margin-left: 70px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+    margin-left: 67px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+    margin-left: 67px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .scale .percent_scale_phone {
+    width: 390px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost .numbers {
+    font: 500 40px/40px "Ubuntu", Tahoma, sans-serif;
+    padding: 18px 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(1) .cost .numbers span {
+    padding: 0 14px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) {
+    margin-top: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale {
+    width: 580px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .title {
+    margin-bottom: 14px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col {
+    margin-top: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(1) a {
+    position: absolute;
+    left: 24px;
+    bottom: 123px;
+    width: 160px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) {
+    width: 468px;
+    padding: 10px 20px;
+    margin-left: 100px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side {
+    float: none;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .s_title {
+    font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt {
+    margin-left: 10px;
+    display: inline-block;
+    font: 400 16px/22px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .left_side .bot_cnt a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side {
+    float: none;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i {
+    float: none;
+    display: inline-block;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i:nth-child(2) {
+    margin-left: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col:nth-child(4) .right_side .col_i .item:nth-child(1) {
+    margin-left: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(3) .line:nth-child(2) .scale .cols .col .check {
+    margin: 12px 0;
+  }
+  .wrapper main .advantages .inner {
+    width: 890px;
+  }
+  .wrapper main .advantages .inner h2 {
+    font: 700 50px/50px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .advantages .inner .items {
+    width: 890px;
+  }
+  .wrapper footer .inner {
+    width: 890px;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(2) {
+    width: 38%;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(2) .sub:nth-child(2) {
+    margin-left: 60px;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(3) {
+    width: 29%;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(4) {
+    width: 16%;
+  }
+  .wrapper footer .inner .bot_cnt {
+    padding-left: 152px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .wrapper {
+    min-width: 769px;
+  }
+  .wrapper header .inner {
+    width: 100%;
+    padding: 20px;
+  }
+  .wrapper header .inner .logo {
+    position: relative;
+    z-index: 1;
+  }
+  .wrapper header .inner nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    padding: 86px 0 100px;
+  }
+  .wrapper header .inner nav.active {
+    display: block;
+  }
+  .wrapper header .inner nav a {
+    display: table;
+    margin: 0 auto;
+  }
+  .wrapper header .inner nav a:after {
+    display: none;
+  }
+  .wrapper header .inner .phone {
+    display: none;
+    float: none;
+    position: absolute;
+    bottom: -246px;
+    left: 50%;
+    margin-left: -66px;
+  }
+  .wrapper header .inner .phone.active {
+    display: block;
+  }
+  .wrapper header .inner .burger {
+    display: block;
+  }
+  .wrapper main .main_slider .slides_count {
+    left: auto;
+    right: 87px;
+    top: 330px;
+  }
+  .wrapper main .main_slider .inner {
+    padding: 130px 15px 0;
+  }
+  .wrapper main .main_slider .inner .slick-arrow {
+    bottom: 384px;
+  }
+  .wrapper main .main_slider .inner .slick-arrow.slick-next {
+    left: auto;
+    right: 15px;
+  }
+  .wrapper main .main_slider .inner .slick-arrow.slick-prev {
+    left: auto;
+    right: 145px;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .sub_title {
+    margin-top: 18px;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .bot {
+    bottom: 310px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt {
+    width: 400px;
+    top: auto;
+    bottom: 40px;
+    right: 50%;
+    margin-right: -200px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt.second {
+    width: 340px;
+    top: auto;
+    bottom: -30px;
+    right: 50%;
+    margin-right: -200px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt.third {
+    width: 340px;
+    top: auto;
+    bottom: -30px;
+    right: 50%;
+    margin-right: -200px;
+  }
+  .wrapper main .internet_home .inner,
+  .wrapper main .promo_phone .inner {
+    width: 100%;
+    margin: 0;
+  }
+  .wrapper main .internet_home .inner .left_cnt,
+  .wrapper main .promo_phone .inner .left_cnt,
+  .wrapper main .internet_home .inner .right_cnt,
+  .wrapper main .promo_phone .inner .right_cnt {
+    float: none;
+  }
+  .wrapper main .internet_home .inner .left_cnt,
+  .wrapper main .promo_phone .inner .left_cnt {
+    margin: 0 auto;
+  }
+  .wrapper main .calculator .inner {
+    width: 100%;
+  }
+  .wrapper main .calculator .inner .left_cnt {
+    float: none;
+    width: 100%;
+  }
+  .wrapper main .calculator .inner .left_cnt a {
+    width: 33%;
+    float: left;
+  }
+  .wrapper main .calculator .inner .left_cnt a.active {
+    -webkit-box-shadow: 0px -22px 33px 33px rgba(4, 4, 4, 0.1);
+            box-shadow: 0px -22px 33px 33px rgba(4, 4, 4, 0.1);
+  }
+  .wrapper main .calculator .inner .left_cnt a:nth-child(2) {
+    width: 34%;
+  }
+  .wrapper main .calculator .inner .right_cnt {
+    float: none;
+    width: 100%;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) {
+    position: relative;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost {
+    position: absolute;
+    right: 60px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) {
+    position: relative;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend {
+    position: absolute;
+    right: 60px;
+  }
+  .wrapper main .advantages .inner {
+    padding-top: 60px;
+    width: 100%;
+  }
+  .wrapper main .advantages .inner h2 {
+    font: 700 40px/40px "Ubuntu", Tahoma, sans-serif;
+    letter-spacing: 20px;
+    color: #e2e2e2;
+    left: 50%;
+    margin-left: -292px;
+  }
+  .wrapper main .advantages .inner .items {
+    width: 100%;
+  }
+  .wrapper main .advantages .inner .items .item {
+    width: 50%;
+    text-align: center;
+  }
+  .wrapper main .advantages .inner .items .item .txt {
+    margin: 26px auto 0;
+  }
+  .wrapper main .promo_smart .inner {
+    width: 100%;
+  }
+  .wrapper main .promo_smart .inner .left_cnt,
+  .wrapper main .promo_smart .inner .right_cnt {
+    display: block;
+  }
+  .wrapper main .promo_smart .inner .left_cnt {
+    margin-left: 15px;
+  }
+  .wrapper main .promo_smart .inner .right_cnt {
+    margin: 30px auto 70px;
+  }
+  .wrapper footer .inner {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    min-width: 320px;
+  }
+  .wrapper header .inner {
+    padding: 12px 15px;
+  }
+  .wrapper header .inner .logo img {
+    height: 30px;
+  }
+  .wrapper header .inner nav {
+    padding: 70px 0 150px;
+  }
+  .wrapper header .inner nav a {
+    font: 400 20px/20px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper header .inner .phone {
+    bottom: -330px;
+  }
+  .wrapper header .inner .burger {
+    right: 16px;
+    top: 20px;
+  }
+  .wrapper main .main_slider .slides_count {
+    display: none;
+  }
+  .wrapper main .main_slider .inner .slick-arrow {
+    width: 50px;
+    height: 50px;
+    bottom: 467px;
+  }
+  .wrapper main .main_slider .inner .slick-arrow.slick-prev {
+    right: 70px;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .title {
+    font: 500 25px/25px "Ubuntu", Tahoma, sans-serif !important;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .sub_title {
+    font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .bot {
+    bottom: 390px;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .bot .connect {
+    height: 50px;
+    font: 400 15px/48px "Ubuntu", Tahoma, sans-serif;
+    width: 170px;
+  }
+  .wrapper main .main_slider .inner .slider .left_cnt .bot .connect:after {
+    top: 3px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt {
+    margin-right: -188px;
+    width: 450px;
+  }
+  .wrapper main .main_slider .inner .slider .right_cnt.second {
+    width: 300px;
+    margin-right: -138px;
+    bottom: 0;
+  }
+  .wrapper main .internet_home .inner .right_cnt {
+    padding-top: 10px;
+  }
+  .wrapper main .internet_home .inner .right_cnt:before {
+    font: 700 90px/90px "Ubuntu", Tahoma, sans-serif;
+    top: -50px;
+  }
+  .wrapper main .internet_home .inner .right_cnt h2 {
+    font: 500 25px/30px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .internet_home .inner .right_cnt .sub_title {
+    width: 200px;
+    font: 400 14px/18px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .internet_home .inner .right_cnt ul li {
+    font: 300 14px/18px "Ubuntu", Tahoma, sans-serif;
+    margin-bottom: 12px;
+  }
+  .wrapper main .internet_home .inner .right_cnt ul li:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .internet_home .inner .right_cnt a {
+    height: 50px;
+    font: 400 15px/48px "Ubuntu", Tahoma, sans-serif;
+    width: 170px;
+  }
+  .wrapper main .internet_home .inner .right_cnt a:after {
+    top: 3px;
+  }
+  .wrapper main .internet_home .inner .left_cnt {
+    width: 290px;
+    margin-top: 30px;
+  }
+  .wrapper main .calculator .inner .left_cnt a {
+    height: 68px;
+    padding: 38px 0 0 0;
+    text-align: center;
+    font: 500 12px/12px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .left_cnt a:nth-child(1):before,
+  .wrapper main .calculator .inner .left_cnt a:nth-child(2):before,
+  .wrapper main .calculator .inner .left_cnt a:nth-child(3):before {
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    top: 17px;
+    left: 50%;
+    margin-left: -14px;
+  }
+  .wrapper main .calculator .inner .right_cnt {
+    padding-right: 15px;
+    height: 550px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) {
+    position: static;
+    margin-bottom: 70px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) img {
+    display: none;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale {
+    width: 100%;
+    margin-left: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .title {
+    font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+    text-align: center;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .speed_scale {
+    width: 100%;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .speed_scale .ui-slider-handle {
+    margin-left: -16px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale {
+    height: 22px;
+    margin-bottom: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span {
+    position: absolute;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(2) {
+    left: 20%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(3) {
+    left: 40%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(4) {
+    left: 60%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:nth-child(5) {
+    left: 80%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:first-child {
+    left: 0;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .scale .num_scale span:last-child {
+    margin: 0;
+    left: 100%;
+    margin-left: -16px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost {
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    left: 0;
+    width: 137px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(1) .cost .numbers span {
+    padding: 0 11px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) {
+    position: static;
+    margin-top: 0px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) img {
+    display: none;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale {
+    width: 100%;
+    margin-left: 0;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .title {
+    font: 400 16px/16px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .percent_scale {
+    width: 100%;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .percent_scale .ui-slider-handle {
+    margin-left: -16px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale {
+    height: 22px;
+    margin-bottom: 10px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span {
+    position: absolute;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(2) {
+    left: 25%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(3) {
+    left: 50%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:nth-child(4) {
+    left: 75%;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:first-child {
+    left: 0;
+    margin-left: -12px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale .num_scale span:last-child {
+    margin: 0;
+    left: 100%;
+    margin-left: -16px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale a {
+    top: 136px;
+    left: 50%;
+    width: 170px;
+    height: 50px;
+    margin-left: -85px;
+    font: 400 15px/48px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .scale a img {
+    display: inline;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend {
+    position: absolute;
+    z-index: 1;
+    bottom: 120px;
+    right: 0;
+    width: 137px;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .top_cnt {
+    font: 300 12px/12px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .calculator .inner .right_cnt .tab:nth-child(1) .line:nth-child(2) .calend .top_cnt sup {
+    font-size: 16px;
+  }
+  .wrapper main .advantages .inner h2 {
+    font: 700 28px/38px "Ubuntu", Tahoma, sans-serif;
+    letter-spacing: 6px;
+    margin-left: -150px;
+  }
+  .wrapper main .advantages .inner .items .item {
+    width: 100%;
+  }
+  .wrapper main .promo_smart .inner .left_cnt {
+    padding-top: 10px;
+  }
+  .wrapper main .promo_smart .inner .left_cnt:before {
+    font: 700 90px/90px "Ubuntu", Tahoma, sans-serif;
+    top: -50px;
+  }
+  .wrapper main .promo_smart .inner .left_cnt h2 {
+    font: 500 25px/30px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .promo_smart .inner .left_cnt .sub_title {
+    width: 200px;
+    font: 400 14px/18px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .promo_smart .inner .left_cnt ul li {
+    font: 300 14px/18px "Ubuntu", Tahoma, sans-serif;
+    margin-bottom: 12px;
+  }
+  .wrapper main .promo_smart .inner .left_cnt ul li:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .promo_smart .inner .left_cnt a {
+    height: 50px;
+    font: 400 15px/48px "Ubuntu", Tahoma, sans-serif;
+    width: 170px;
+  }
+  .wrapper main .promo_smart .inner .left_cnt a:after {
+    top: 3px;
+  }
+  .wrapper main .promo_smart .inner .right_cnt {
+    width: 290px;
+    margin-top: 30px;
+  }
+  .wrapper main .promo_phone .inner {
+    margin-bottom: 60px;
+  }
+  .wrapper main .promo_phone .inner .right_cnt {
+    padding-top: 10px;
+  }
+  .wrapper main .promo_phone .inner .right_cnt:before {
+    font: 700 90px/90px "Ubuntu", Tahoma, sans-serif;
+    top: -50px;
+  }
+  .wrapper main .promo_phone .inner .right_cnt h2 {
+    font: 500 25px/30px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .promo_phone .inner .right_cnt .sub_title {
+    width: 200px;
+    font: 400 14px/18px "Ubuntu", Tahoma, sans-serif;
+  }
+  .wrapper main .promo_phone .inner .right_cnt ul li {
+    font: 300 14px/18px "Ubuntu", Tahoma, sans-serif;
+    margin-bottom: 12px;
+  }
+  .wrapper main .promo_phone .inner .right_cnt ul li:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .promo_phone .inner .right_cnt a {
+    height: 50px;
+    font: 400 15px/48px "Ubuntu", Tahoma, sans-serif;
+    width: 170px;
+  }
+  .wrapper main .promo_phone .inner .right_cnt a:after {
+    top: 3px;
+  }
+  .wrapper main .promo_phone .inner .left_cnt {
+    width: 290px;
+    margin-top: 30px;
+  }
+  .wrapper footer .inner .top_cnt .col {
+    float: none;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(2) {
+    width: 100%;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(3) {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(4) {
+    width: 100%;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(4) a:nth-child(1) {
+    margin: 56px 0 12px;
+  }
+  .wrapper footer .inner .top_cnt .col:nth-child(4) a:nth-child(2):after {
+    width: auto;
+  }
+  .wrapper footer .inner .bot_cnt {
+    padding-left: 0;
   }
 }

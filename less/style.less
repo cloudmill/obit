@@ -78,6 +78,47 @@
 					}
 				}
 			}
+			.burger {
+				width: 36px;
+				height: 13px;
+				position: absolute;
+				right: 20px;
+				top: 36px;
+				cursor: pointer;
+				display: none;
+				&:before {
+					content: '';
+					position: absolute;
+					height: 3px;
+					width: 100%;
+					top: 0;
+					left: 0;
+					background-color: #ffad36;
+					transform: rotate(0deg);
+					transition: transform 0.3s, top 0.3s;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					height: 3px;
+					width: 100%;
+					bottom: 0;
+					left: 0;
+					background-color: #ffad36;
+					transform: rotate(0deg);
+					transition: transform 0.3s, bottom 0.3s;
+				}
+				&.active {
+					&:before {
+						transform: rotate(45deg);
+						top: 5px;
+					}
+					&:after {
+						transform: rotate(-45deg);
+						bottom: 5px;
+					}
+				}
+			}
 		}
 	}
 	main {
@@ -88,9 +129,10 @@
 			.slides_count {
 				position: absolute;
 				top: 455px;
-				left: 688px;
+				left: 50%;
 				z-index: 10;
 				color: #fff;
+				margin-left: -265px;
 				span {
 					display: inline-block;
 					vertical-align: middle;
@@ -247,15 +289,13 @@
 				width: 1240px;
 				margin: 0 auto 55px;
 				.left_cnt {
-					display: inline-block;
-					vertical-align: middle;
+					float: left;
 				}
 				.right_cnt {
+					float: right;
 					position: relative;
-					display: inline-block;
-					vertical-align: middle;
 					color: #1f0f05;
-					margin-left: 130px;
+					margin-top: 130px;
 					background-color: #fff;
 					&:before {
 						content: '01';
@@ -1222,13 +1262,15 @@
 			.inner {
 				width: 1240px;
 				margin: 0 auto 60px;
-				.right_cnt, .left_cnt {
-					display: inline-block;
+				.left_cnt {
+					float: left;
 				}
 				.right_cnt {
 					position: relative;
 					background-color: #fff;
 					margin-left: 130px;
+					margin-top: 100px;
+					float: right;
 					&:before {
 						content: '03';
 						position: absolute;
